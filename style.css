@@ -23,6 +23,7 @@ hr{
     max-width: 400px;
     position: relative;
 height: 600px;
+
   
 
 }
@@ -41,4 +42,12 @@ height: 600px;
 #top{
     position: absolute;
     right: 500px;
+}
+@media(max-width:768px){
+    #first{
+        margin: 20px;
+    }
+    #second{
+        margin: 20px;
+    }
 }
