@@ -10,8 +10,10 @@
    object-fit: cover;
    height: 180px;
 }
-#avatar2 {
-    width: 100% !important;
+#avatar2 img{
+    position: absolute;
+    top: 150px;
+    left: 860px;
    
 }
 hr{
@@ -20,26 +22,35 @@ hr{
     width: 90px;
 }
 #first{
-    max-width: 400px;
-    position: relative;
-height: 600px;
+  background-image: url(./assets/images/image1.svg);
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
 
   
 
 }
 #second{
-    max-width: 400px;
-    position: relative;
-height: 600px;
-
+   
+    background-image: url(./assets/images/image2.svg);
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
   
 
 }
-#second p{
-    width: 80%;
-    padding-bottom: 30px;
-}
-#top{
+#a{
     position: absolute;
-    right: 500px;
+    bottom: 380px;
+
+}
+#b{
+    position: absolute;
+    top: 90px;
+left: 860px;
+
 }
